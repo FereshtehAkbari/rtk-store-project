@@ -12,7 +12,7 @@ import {
   searchProducts,
 } from "../helpers/helper";
 import { useSearchParams } from "react-router-dom";
-import SideBar from "../components/sideBar";
+import SideBar from "../components/SideBar";
 
 function ProductsPage() {
   const dispatch = useDispatch();
