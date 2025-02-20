@@ -5,7 +5,7 @@ import Loader from "../components/Loader";
 import { fetchProducts } from "../features/product/productSlice";
 import { useSelector, useDispatch } from "react-redux";
 import { useEffect, useState } from "react";
-import SearchBox from "../components/searchBox";
+import SearchBox from "../components/SearchBox.jsx";
 import {
   filterProducts,
   getInitialQuery,
